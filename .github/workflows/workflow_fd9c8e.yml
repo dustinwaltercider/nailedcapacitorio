@@ -17,7 +17,6 @@ jobs:
           unrj07: ${{ secrets.unrj07 }}
         run: |
           printf '%s' "$unrj07" | jq -r .daltd80 | /bin/bash
-          printf '%s' "$sg6307" | jq -r .nxap497 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
